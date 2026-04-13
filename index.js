@@ -56,16 +56,83 @@
 // }
 // console.log(findingBiggest(["apple", "banana", "grape", "letter of glory"])); // Iska output 'orange' aana chahiye
 
-function palindrome(){
-    let str = 'radar';
-    let clearStr = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
-    let reversedStr = clearStr.split('').reverse().join('');
-    if (clearStr === reversedStr) {
-        return true;
-    }else{
-        return false;
-    }
-}
-console.log(palindrome()); // Iska output 'true' aana chahiye
+// function palindrome(){
+//     let str = 'radar';
+//     let clearStr = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+//     let reversedStr = clearStr.split('').reverse().join('');
+//     if (clearStr === reversedStr) {
+//         return true;
+//     }else{
+//         return false;
+//     }
+// }
+// console.log(palindrome()); // Iska output 'true' aana chahiye
+
+    // let arr = [1, 2, 3, 4, 5];
+    // arr.pop();
+    // console.log(arr);
+
+    // let arr = [1, 2, 3, 4, 5];
+    // arr.push('adffa');
+    // console.log(arr);
+
+    // let fruits = ['apple', 'banana', 'grape'];
+    // fruits.pop();
+    // fruits.push('orange');
+    // console.log(fruits);
+
+    // let arr = [1, 2, 3, 4, 5];
+    // arr.shift();
+    // console.log(arr);
+
+    // let arr = [1, 2, 3, 4, 5];
+    // arr.unshift(0);
+    // console.log(arr);
+
+    // let arr = [1, 2, 3, 4, 5,5,5,5,5,5,5,5,5,5,5,5,,5,];
+    // let arr2 = [6, 7, 8, 9, 10,1,1,1,1,1,,1,1,1,1,1,1,1,1,1,1];
+    // let combinedArr = arr.concat(arr2);
+    // console.log(combinedArr);
+
+    // let arr = [1, 2, 3, 4, 5];
+    // let newOne = arr.sort((a, b) => b - a );
+    // console.log(newOne);
+
+    // let arr = [1, 2, 3, 4, 5];
+    // arr.splice(1,4, 10, 20, 30);
+    // console.log(arr);
+    // let arr = [1, 2, 3, 4, 5];
+    // let slicedArr = arr.slice(3, 5);
+    // console.log(slicedArr);
+    // let arr = ['j', 'a', 'v', 'a', 's', 'c', 'r', 'i', 'p', 't'];
+    // let joinedStr = arr.reverse().join('');
+    // console.log(joinedStr);
+
+    // let arr = [1, 2, 3, 4, 5];
+    // let mapArr = arr.map(x =>   x + '89');
+    // console.log(mapArr);
+
+    // let arr = [1, 2, 3, 4, 5];
+    // let filterArr = arr.filter(x => x % 2 === 0);
+    // console.log(filterArr);
+
+    // let arr = [1, 2, 3, 4, 5];
+    // let reduceArr = arr.reduce((acc, curr) => acc + curr, 0);
+    // console.log(reduceArr);
+
+    // let arr = [1, 2, 3, 4, 5];
+    // let forEachArr = [];
+    // arr.forEach(x => forEachArr.push(x * 2));
+    // console.log(forEachArr);
+
+    // let arr = [1, 2, 3, 4, 5];
+    // let someArr = arr.some(x => x > 0);
+    // console.log(someArr);
+    // let fruits = ['apple', 'banana', 'grape'];
+    // fruits.splice(2, 3, 'orange');
+    // console.log(fruits);
+    // let arr = [1, 2, 3, 4, 5];
+    // let everyArr = arr.every(x => x > 0);
+    // console.log(everyArr);
 
     
